@@ -1,0 +1,10 @@
+# Caminho para as pastas de treino e validação
+# (relativo a onde o treinamento será executado)
+train: ../Datasets/Dataset-3/images/train
+val: ../Datasets/Dataset-3/images/val
+
+# Número de classes
+nc: 8  # <--- ALTERE AQUI para o número de classes que você tem
+
+# Nomes das classes, na mesma ordem dos índices (0, 1, 2...)
+names: ['enemy', 'enemy_paper', 'enemy_scan', 'enemy_paper_scan', 'head', 'head_paper', 'body', 'body_paper'] # <--- ALTERE AQUI para os nomes das suas classes

@@ -1,0 +1,1 @@
+yolo task=detect mode=train model=yolov8s.pt data=data.yaml name=v2 project=animeBot epochs=100 imgsz=1024 batch=8 workers=4
